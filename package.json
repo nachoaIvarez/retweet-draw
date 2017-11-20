@@ -1,0 +1,58 @@
+{
+  "version": "0.0.0",
+  "name": "retweet-draw",
+  "description":
+    "A draw among retweets. Given a tweet id, logs a random user that retweeted the referenced tweet.",
+  "repository": "https://github.com/nachoaIvarez/retweet-draw",
+  "author": {
+    "name": "Nacho Álvarez",
+    "email": "ignacioalvarez92@gmail.com",
+    "url": "https://github.com/nachoaIvarez"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "keywords": [
+    "cli",
+    "twitter",
+    "retweets",
+    "draw",
+    "random",
+    "argv",
+    "command",
+    "line",
+    "console"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "lookenv": "^0.5.1",
+    "minimist": "^1.2.0",
+    "random-item": "^1.0.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.8.2"
+  },
+  "lookenv": {
+    "TWITTER_CONSUMER_KEY": {
+      "required": true
+    },
+    "TWITTER_CONSUMER_SECRET": {
+      "required": true
+    },
+    "TWITTER_ACCESS_TOKEN_KEY": {
+      "required": true
+    },
+    "TWITTER_ACCESS_TOKEN_SECRET": {
+      "required": true
+    }
+  }
+}
