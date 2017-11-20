@@ -1,4 +1,4 @@
-# node index.js
+# retweet-draw
 
 > A draw among retweets. Given a tweet id, logs a random user that retweeted the referenced tweet.
 
